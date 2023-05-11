@@ -2,19 +2,34 @@
 
 
 
-#### `git commit` —— 保存仓库的历史纪录
+### 基础操作
 
-将当前 **暂存区** 中的文件实际保存到仓库的历史记录中。通过这些记录，我们就可以在工作树中复原文件。
+### `git init` —— 初始化仓库
 
-`git commit -m "此处记录一行关于此次提交的概述信息"`
+### `git status` —— 查看仓库的状态
+
+### `git add` —— 向暂存区中添加文件
+
+### `git commit` —— 保存仓库的历史记录
+
+`git log`
+
+`git diff`
 
 
 
-`git diff` ，查看当前工作树与暂存区的差别
+---------------  feature-A
 
-`git diff HEAD`，查看工作树和最新提交的差别
+### 分支操作
 
+`git branch` —— 显示分支一览表
 
+```shell
+git checkout -b feature-A # 创建名为 feature-A 的分支  等价于下方两条命令
+## 创建 feature-A 分支，并将当前分支切换为 feature-A 分支
+git branch feature-A
+git checkout feature-A
+```
 
 
 
