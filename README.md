@@ -18,7 +18,7 @@
 
 
 
----------------  feature-A
+---------------  创建 feature-A 分支
 
 ## 分支操作
 
@@ -42,4 +42,8 @@ git checkout feature-A
 ## 更改提交的操作
 
 `git reset` —— 回溯历史版本
+
+
+
+------ 创建 fix-B 分支
 
